@@ -2,11 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
-    background: lightblue;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,8 +23,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-
-
 }
 
 .profileText {
@@ -61,27 +59,21 @@ h2 {
     text-align: center;
     font-weight: 600px;
     line-height: 1.4em;
-
 }
 
 span {
-    font-size: 0.8em;
+    font-size: 1em;
     font-weight: 300;
-
-
 }
-
 
 .left-size {
     position: relative;
     background: #003147;
     padding: 40px;
-
 }
 
 .contactInfo {
     padding-top: 40px;
-
 }
 
 .title {
@@ -90,7 +82,6 @@ span {
     font-weight: 600;
     letter-spacing: 1px;
     margin-bottom: 20px;
-
 }
 
 ul {
@@ -118,7 +109,6 @@ li {
 
 .education li {
     margin-bottom: 15px;
-
 }
 
 h5 {
@@ -137,52 +127,64 @@ h4 {
     padding-top: 60px;
 }
 
-
-
-
 .right-size {
     position: relative;
     background: #fff;
     padding: 40px;
-
 }
 
 .about {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .about:last-child {
     margin-bottom: 0;
 }
 
-.title2 {
+.container-right-size {
     color: #003147;
     text-transform: uppercase;
     letter-spacing: 1px;
     margin-bottom: 10px;
-}
+    padding-top: 30px;
 
+}
 #perfil {
-    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 p {
     color: #333;
+    font-weight: 500px;
+    text-transform: none;
+}
 
+.seccond-title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
 
+.third-title{
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.fourth-title {
+    padding-top: 30px;
+}
+
+.hard-skills{
+    padding-top: 30px;
+}
+
+.soft-skills{
+    padding-top: 30px;
 }
 
 .skills {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    text-transform: none;
+    color: #333;
 }
-
-.title3 {
-
-        color: #003147;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin-bottom: 10px;
-        padding-top: 50px;
-    
+.paragraph {
+    font-size: 1.1rem;
 }
